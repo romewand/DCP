@@ -1,0 +1,22 @@
+{
+  "run_id": "20261124T143821Z-f4a2da33",
+  "finished_at_utc": "2026-11-24T14:38:43.093802+00:00",
+  "counts": {
+    "api": 9882,
+    "published": 9882,
+    "consumed": 9882,
+    "valid": 9882,
+    "invalid": 0,
+    "cleaned": 9882,
+    "stored": 9882
+  },
+  "checks": {
+    "api_equals_published_equals_consumed": true,
+    "validation_reconciles": true,
+    "cleaning_reconciles": true,
+    "stored_equals_cleaned": true,
+    "repeat_load_unchanged": true
+  },
+  "synthetic_invalid_records_excluded": 4,
+  "differences": "Validation quarantined 0 rows; cleaning removed 0 exact duplicates. One Kafka end marker is excluded from all record counts."
+}

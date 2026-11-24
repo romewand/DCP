@@ -1,0 +1,45 @@
+{
+  "raw_unique": 308,
+  "cleaned": 308,
+  "invalid_core_rows": [],
+  "missing": {
+    "planet_name": 0,
+    "host_name": 0,
+    "number_of_stars": 0,
+    "number_of_planets": 0,
+    "discovery_method": 0,
+    "discovery_year": 0,
+    "discovery_facility": 0,
+    "controversial_flag": 0,
+    "orbital_period_days": 25,
+    "semi_major_axis_au": 34,
+    "radius_earth": 5,
+    "mass_earth": 0,
+    "mass_provenance": 0,
+    "eccentricity": 74,
+    "equilibrium_temp_k": 31,
+    "stellar_teff_k": 5,
+    "distance_pc": 4
+  },
+  "discovery_methods": [
+    "Astrometry",
+    "Eclipse Timing Variations",
+    "Imaging",
+    "Microlensing",
+    "Radial Velocity",
+    "Transit",
+    "Transit Timing Variations"
+  ],
+  "discovery_year_range": [
+    1995,
+    2026
+  ],
+  "mass_provenance": [
+    "M-R relationship",
+    "Mass",
+    "Msin(i)/sin(i)",
+    "Msini"
+  ],
+  "limit_cells": 27,
+  "scope": "Alphabetical prefix feasibility sample, not representative or complete catalogue"
+}

@@ -1,0 +1,18 @@
+{
+  "rows": 9882,
+  "columns": 20,
+  "numeric_ratings": 7467,
+  "business_types": 14,
+  "findings": [
+    "Leeds: 4,208/7,685 listed establishments (54.8%) have rating 5; 5,583 have numeric ratings.",
+    "York: 1,371/2,197 listed establishments (62.4%) have rating 5; 1,884 have numeric ratings.",
+    "Among business types with at least 30 rated records, Takeaway/sandwich shop has the highest observed share rated 0-2: 48/879 (5.5%). This comparison is unadjusted.",
+    "At ratings 1 and 5, median hygiene scores are 15 and 0. Component scores help determine overall ratings, so this association is not independent causal evidence."
+  ],
+  "limitations": [
+    "A current listing snapshot, not inspection histories or a representative UK sample.",
+    "Authority comparisons may reflect business mix and inspection timing.",
+    "Special statuses remain in status distributions but are excluded from numeric rating denominators.",
+    "1901 dates are flagged and excluded from date arithmetic; the source strings remain stored."
+  ]
+}

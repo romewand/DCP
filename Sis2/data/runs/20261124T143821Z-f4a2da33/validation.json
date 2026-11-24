@@ -1,0 +1,6 @@
+{
+  "received": 9882,
+  "valid": 9882,
+  "invalid": 0,
+  "rules": "positive unique ID; required text; selected authority; FHRS scheme; rating category; date; score domains; coordinates; JSON structure"
+}

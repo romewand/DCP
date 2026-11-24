@@ -1,0 +1,142 @@
+{
+  "synthetic": true,
+  "excluded_from_final_data": true,
+  "records": [
+    {
+      "AddressLine1": "HM Young Offenders Institution",
+      "AddressLine2": "York Road",
+      "AddressLine3": "Wetherby",
+      "AddressLine4": "",
+      "BusinessName": "\"CRUSTODY\"",
+      "BusinessType": "Restaurant/Cafe/Canteen",
+      "BusinessTypeID": 1,
+      "ChangesByServerID": 0,
+      "Distance": null,
+      "FHRSID": 900000001,
+      "LocalAuthorityBusinessID": "25/00852/COMM",
+      "LocalAuthorityCode": "413",
+      "LocalAuthorityEmailAddress": "food.safety@leeds.gov.uk",
+      "LocalAuthorityName": "Leeds",
+      "LocalAuthorityWebSite": "http://www.leeds.gov.uk/",
+      "NewRatingPending": false,
+      "Phone": "",
+      "PostCode": "LS22 5ED",
+      "RatingDate": "2026-03-26T00:00:00",
+      "RatingKey": "fhrs_5_en-gb",
+      "RatingValue": "99",
+      "RightToReply": "",
+      "SchemeType": "FHRS",
+      "geocode": {
+        "longitude": null,
+        "latitude": null
+      },
+      "scores": {
+        "Hygiene": 0,
+        "Structural": 0,
+        "ConfidenceInManagement": 5
+      }
+    },
+    {
+      "AddressLine1": "HM Young Offenders Institution",
+      "AddressLine2": "York Road",
+      "AddressLine3": "Wetherby",
+      "AddressLine4": "",
+      "BusinessName": "   ",
+      "BusinessType": "Restaurant/Cafe/Canteen",
+      "BusinessTypeID": 1,
+      "ChangesByServerID": 0,
+      "Distance": null,
+      "FHRSID": 900000002,
+      "LocalAuthorityBusinessID": "25/00852/COMM",
+      "LocalAuthorityCode": "413",
+      "LocalAuthorityEmailAddress": "food.safety@leeds.gov.uk",
+      "LocalAuthorityName": "Leeds",
+      "LocalAuthorityWebSite": "http://www.leeds.gov.uk/",
+      "NewRatingPending": false,
+      "Phone": "",
+      "PostCode": "LS22 5ED",
+      "RatingDate": "2026-03-26T00:00:00",
+      "RatingKey": "fhrs_5_en-gb",
+      "RatingValue": "5",
+      "RightToReply": "",
+      "SchemeType": "FHRS",
+      "geocode": {
+        "longitude": null,
+        "latitude": null
+      },
+      "scores": {
+        "Hygiene": 0,
+        "Structural": 0,
+        "ConfidenceInManagement": 5
+      }
+    },
+    {
+      "AddressLine1": "HM Young Offenders Institution",
+      "AddressLine2": "York Road",
+      "AddressLine3": "Wetherby",
+      "AddressLine4": "",
+      "BusinessName": "\"CRUSTODY\"",
+      "BusinessType": "Restaurant/Cafe/Canteen",
+      "BusinessTypeID": 1,
+      "ChangesByServerID": 0,
+      "Distance": null,
+      "FHRSID": 900000003,
+      "LocalAuthorityBusinessID": "25/00852/COMM",
+      "LocalAuthorityCode": "413",
+      "LocalAuthorityEmailAddress": "food.safety@leeds.gov.uk",
+      "LocalAuthorityName": "Leeds",
+      "LocalAuthorityWebSite": "http://www.leeds.gov.uk/",
+      "NewRatingPending": false,
+      "Phone": "",
+      "PostCode": "LS22 5ED",
+      "RatingDate": "2099-01-01T00:00:00",
+      "RatingKey": "fhrs_5_en-gb",
+      "RatingValue": "5",
+      "RightToReply": "",
+      "SchemeType": "FHRS",
+      "geocode": {
+        "longitude": null,
+        "latitude": null
+      },
+      "scores": {
+        "Hygiene": 0,
+        "Structural": 0,
+        "ConfidenceInManagement": 5
+      }
+    },
+    {
+      "AddressLine1": "HM Young Offenders Institution",
+      "AddressLine2": "York Road",
+      "AddressLine3": "Wetherby",
+      "AddressLine4": "",
+      "BusinessName": "\"CRUSTODY\"",
+      "BusinessType": "Restaurant/Cafe/Canteen",
+      "BusinessTypeID": 1,
+      "ChangesByServerID": 0,
+      "Distance": null,
+      "FHRSID": 900000004,
+      "LocalAuthorityBusinessID": "25/00852/COMM",
+      "LocalAuthorityCode": "413",
+      "LocalAuthorityEmailAddress": "food.safety@leeds.gov.uk",
+      "LocalAuthorityName": "Leeds",
+      "LocalAuthorityWebSite": "http://www.leeds.gov.uk/",
+      "NewRatingPending": false,
+      "Phone": "",
+      "PostCode": "LS22 5ED",
+      "RatingDate": "2026-03-26T00:00:00",
+      "RatingKey": "fhrs_5_en-gb",
+      "RatingValue": "5",
+      "RightToReply": "",
+      "SchemeType": "FHRS",
+      "geocode": {
+        "longitude": null,
+        "latitude": null
+      },
+      "scores": {
+        "Hygiene": -5,
+        "Structural": 0,
+        "ConfidenceInManagement": 5
+      }
+    }
+  ]
+}

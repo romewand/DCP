@@ -1,0 +1,100 @@
+[
+  {
+    "requested_at_utc": "2026-11-16T12:09:56.490063+00:00",
+    "endpoint": "/Authorities",
+    "params": {},
+    "attempt": 1,
+    "url": "https://api.ratings.food.gov.uk/Authorities",
+    "status_code": 200,
+    "response_file": "authorities.json",
+    "sha256": "0b65423b8e972c4b7a9e7d3f3545cd1fa5122547fae3e1b2aa3d0f4e7fa2b174",
+    "meta": {
+      "dataSource": "API",
+      "extractDate": "2026-11-16T12:09:57.4071734+00:00",
+      "itemCount": 363,
+      "returncode": "OK",
+      "totalCount": 363,
+      "totalPages": 1,
+      "pageSize": 363,
+      "pageNumber": 1
+    }
+  },
+  {
+    "requested_at_utc": "2026-11-16T12:09:57.511977+00:00",
+    "endpoint": "/Establishments",
+    "params": {
+      "schemeTypeKey": "FHRS",
+      "localAuthorityId": 397,
+      "sortOptionKey": "alpha",
+      "pageSize": 5000,
+      "pageNumber": 1
+    },
+    "attempt": 1,
+    "url": "https://api.ratings.food.gov.uk/Establishments?schemeTypeKey=FHRS&localAuthorityId=397&sortOptionKey=alpha&pageSize=5000&pageNumber=1",
+    "status_code": 200,
+    "response_file": "leeds_001.json",
+    "sha256": "87c67fc9e8e3e6607f312f824f01756427f54b47524b7f340e669ba6a2629a13",
+    "meta": {
+      "dataSource": "ElasticSearch",
+      "extractDate": "2026-11-16T12:09:58.3622615+00:00",
+      "itemCount": 5000,
+      "returncode": "OK",
+      "totalCount": 7685,
+      "totalPages": 2,
+      "pageSize": 5000,
+      "pageNumber": 1
+    }
+  },
+  {
+    "requested_at_utc": "2026-11-16T12:09:58.901099+00:00",
+    "endpoint": "/Establishments",
+    "params": {
+      "schemeTypeKey": "FHRS",
+      "localAuthorityId": 397,
+      "sortOptionKey": "alpha",
+      "pageSize": 5000,
+      "pageNumber": 2
+    },
+    "attempt": 1,
+    "url": "https://api.ratings.food.gov.uk/Establishments?schemeTypeKey=FHRS&localAuthorityId=397&sortOptionKey=alpha&pageSize=5000&pageNumber=2",
+    "status_code": 200,
+    "response_file": "leeds_002.json",
+    "sha256": "e4ca6fd7409019751d1afee67ed90188a223dc736189ba4cec7db96d57274e98",
+    "meta": {
+      "dataSource": "ElasticSearch",
+      "extractDate": "2026-11-16T12:09:59.608269+00:00",
+      "itemCount": 2685,
+      "returncode": "OK",
+      "totalCount": 7685,
+      "totalPages": 2,
+      "pageSize": 5000,
+      "pageNumber": 2
+    }
+  },
+  {
+    "requested_at_utc": "2026-11-16T12:10:00.028627+00:00",
+    "endpoint": "/Establishments",
+    "params": {
+      "schemeTypeKey": "FHRS",
+      "localAuthorityId": 406,
+      "sortOptionKey": "alpha",
+      "pageSize": 5000,
+      "pageNumber": 1
+    },
+    "attempt": 1,
+    "url": "https://api.ratings.food.gov.uk/Establishments?schemeTypeKey=FHRS&localAuthorityId=406&sortOptionKey=alpha&pageSize=5000&pageNumber=1",
+    "status_code": 200,
+    "response_file": "york_001.json",
+    "sha256": "fa2c0a1523f59eab181349a376aed4124326a63a1a96b425a2fc6c21c38aadc1",
+    "meta": {
+      "dataSource": "ElasticSearch",
+      "extractDate": "2026-11-16T12:10:00.643709+00:00",
+      "itemCount": 2197,
+      "returncode": "OK",
+      "totalCount": 2197,
+      "totalPages": 1,
+      "pageSize": 5000,
+      "pageNumber": 1
+    }
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "run_id": "20261124T143821Z-f4a2da33",
+  "topic": "sis2-20261124t143821z-f4a2da33",
+  "bootstrap": "localhost:9092",
+  "raw_directory": "data/raw/2026-11-16-complete",
+  "expected": 9882,
+  "records_sha256": "dbc616f8af3ad78689ad95f013d8f942a79efb5a6f7d4022b920e0b1ff7af9d6",
+  "as_of": "2026-11-16T12:10:00.810477+00:00",
+  "authorities": [
+    "Leeds",
+    "York"
+  ],
+  "source_hashes": {
+    "main.py": "8aff41f3a1f3b6f60216bdb220d546f236de058054fb85d9e1308b8ab6aef6d0",
+    "src/__init__.py": "df5e94eb643f07e0a6cf44ac9c6e900aaee9ad0c49774075e16fbd5812545b55",
+    "src/analysis.py": "e813f7a5f789d6291848a4d59663e81899fe26e9362931a4a486fe24a3a1893b",
+    "src/api_client.py": "e1d2c9525b8eb60cadc68bf51dfd20757408e313228424644713c52e34d0e2e3",
+    "src/cleaner.py": "da77c6ba5a0be628535f4c9df5ae9fa118d9bee9873dc01a1909678acf32cb39",
+    "src/common.py": "cce13ad21d406cf00fd115864d4793f03483e5fda16aedae420eb93c5f631188",
+    "src/consumer.py": "00c32efd732a3599de9e8ef70789639617a94a2809406bb590bde1d51838d5f6",
+    "src/loader.py": "c50ac19cd837e6ab7f5dd938b8aea7358f8b5cce68cb94e3c42970328d39f3dc",
+    "src/producer.py": "45d9dd8dddd98ae4fe1ee556481939b90225af82d577f7d562f2044124f385b2",
+    "src/validator.py": "5e7b5efd1d9dc1fd386d8bd8298439a9367f19a4ca3a68285829f4d487d47039",
+    "sql/schema.sql": "20e55a36ab6aa291f298d2c918e400c987d2c31f63efcace0694fa219f36a335",
+    "sql/verify.sql": "e3bdf83a8d68b7e87b72598956f3d3d56236d93605a28eff9eb31446b28bb595",
+    "compose.yaml": "e6704977ed69e65c4d92466905993e06744d18fa58db57ec00829800e2023526"
+  }
+}

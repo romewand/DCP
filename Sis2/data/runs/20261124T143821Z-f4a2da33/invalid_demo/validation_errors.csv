@@ -1,0 +1,5 @@
+schema_context,column,check,check_number,failure_case,index
+Column,business_name,nonempty_text,0,   ,1
+Column,rating_value,"isin(['0', '1', '2', '3', '4', '5', 'AwaitingInspection', 'AwaitingPublication', 'Exempt'])",0,99,0
+Column,rating_date_raw,parseable_nonfuture_date,0,2099-01-01T00:00:00,2
+Column,hygiene,hygiene_score,0,-5,3

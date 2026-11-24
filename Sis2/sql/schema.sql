@@ -1,0 +1,22 @@
+CREATE TABLE IF NOT EXISTS establishments (
+    fhrs_id INTEGER PRIMARY KEY CHECK (fhrs_id > 0),
+    business_name TEXT NOT NULL,
+    business_type TEXT NOT NULL,
+    authority TEXT NOT NULL,
+    authority_code TEXT NOT NULL,
+    rating_value TEXT NOT NULL CHECK (rating_value IN ('0','1','2','3','4','5','AwaitingInspection','AwaitingPublication','Exempt')),
+    rating_date_raw TEXT NOT NULL,
+    scheme TEXT NOT NULL CHECK (scheme = 'FHRS'),
+    postcode TEXT,
+    hygiene REAL CHECK (hygiene IN (0,5,10,15,20,25)),
+    structural REAL CHECK (structural IN (0,5,10,15,20,25)),
+    management REAL CHECK (management IN (0,5,10,20,30)),
+    latitude REAL CHECK (latitude BETWEEN -90 AND 90),
+    longitude REAL CHECK (longitude BETWEEN -180 AND 180),
+    rating_numeric INTEGER CHECK (rating_numeric BETWEEN 0 AND 5),
+    date_flag_1901 INTEGER NOT NULL CHECK (date_flag_1901 IN (0,1)),
+    inspection_date TEXT,
+    days_since_rating INTEGER CHECK (days_since_rating >= 0),
+    score_total REAL CHECK (score_total BETWEEN 0 AND 80),
+    rating_band TEXT NOT NULL
+);

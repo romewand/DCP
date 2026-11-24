@@ -1,0 +1,73 @@
+{
+  "stored": 9882,
+  "first_load_count": 9882,
+  "second_load_count": 9882,
+  "second_load_changes": 0,
+  "first_content_sha256": "4bf1a83aa0f02806d520c4ad2637ac32f5ca4179055322f4c13c41e2822a258b",
+  "second_content_sha256": "4bf1a83aa0f02806d520c4ad2637ac32f5ca4179055322f4c13c41e2822a258b",
+  "matches_processed_values": true,
+  "sql_results": {
+    "SELECT COUNT(*) AS stored, COUNT(DISTINCT fhrs_id) AS unique_ids FROM establishments": [
+      {
+        "stored": 9882,
+        "unique_ids": 9882
+      }
+    ],
+    "SELECT authority, COUNT(*) AS records, COUNT(rating_numeric) AS numeric_ratings FROM establishments GROUP BY authority": [
+      {
+        "authority": "Leeds",
+        "records": 7685,
+        "numeric_ratings": 5583
+      },
+      {
+        "authority": "York",
+        "records": 2197,
+        "numeric_ratings": 1884
+      }
+    ],
+    "SELECT rating_value, COUNT(*) AS records FROM establishments GROUP BY rating_value": [
+      {
+        "rating_value": "1",
+        "records": 57
+      },
+      {
+        "rating_value": "2",
+        "records": 117
+      },
+      {
+        "rating_value": "3",
+        "records": 349
+      },
+      {
+        "rating_value": "4",
+        "records": 1365
+      },
+      {
+        "rating_value": "5",
+        "records": 5579
+      },
+      {
+        "rating_value": "AwaitingInspection",
+        "records": 2099
+      },
+      {
+        "rating_value": "AwaitingPublication",
+        "records": 5
+      },
+      {
+        "rating_value": "Exempt",
+        "records": 311
+      }
+    ],
+    "SELECT COUNT(*) AS flagged_dates FROM establishments WHERE date_flag_1901 = 1": [
+      {
+        "flagged_dates": 2410
+      }
+    ],
+    "PRAGMA integrity_check": [
+      {
+        "integrity_check": "ok"
+      }
+    ]
+  }
+}

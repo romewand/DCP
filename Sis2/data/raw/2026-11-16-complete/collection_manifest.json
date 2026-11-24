@@ -1,0 +1,29 @@
+{
+  "complete": true,
+  "scope": "Complete paginated FHRS inventories of selected authorities",
+  "started_at_utc": "2026-11-16T12:09:56.489928+00:00",
+  "finished_at_utc": "2026-11-16T12:10:00.810477+00:00",
+  "count": 9882,
+  "records_sha256": "dbc616f8af3ad78689ad95f013d8f942a79efb5a6f7d4022b920e0b1ff7af9d6",
+  "coverage": [
+    {
+      "authority": "Leeds",
+      "query_id": 397,
+      "authority_code": "413",
+      "pages": 2,
+      "expected": 7685,
+      "collected": 7685,
+      "unique": 7685
+    },
+    {
+      "authority": "York",
+      "query_id": 406,
+      "authority_code": "868",
+      "pages": 1,
+      "expected": 2197,
+      "collected": 2197,
+      "unique": 2197
+    }
+  ],
+  "limitation": "Live API pagination is not a transactional snapshot; equal totals cannot rule out all changes."
+}
